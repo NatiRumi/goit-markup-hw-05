@@ -613,6 +613,9 @@ img {
     display: block;
 }
 
+
+/* modal */
+
 .backdrop {
     position: fixed;
     top: 0;
@@ -650,7 +653,7 @@ img {
     position: absolute;
     top: 8px;
     right: 8px;
-    
+    transition: color 250ms var(--timing-function);
 }
 
 .modal-batton svg {
@@ -660,4 +663,5 @@ img {
 
 .modal-batton:hover {
     cursor: pointer;
+    color: var(--brend-color);
 }
